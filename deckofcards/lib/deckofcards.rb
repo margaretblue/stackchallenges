@@ -1,3 +1,5 @@
+#require 'deckofcards/base'
+
 class Card
   attr_accessor :suit, :number
 
@@ -22,4 +24,5 @@ class Card
 end
 
 Card.generate_new_deck
+puts Card.generate_new_deck.length
 
