@@ -5,6 +5,7 @@
 
 # class FizzBuzz
 #   #determine if Fizz, Buzz or FizzBuzz is returned
+class FizzBuzz
 
   def fizz_or_buzz(number)
     if number % 3 == 0 && number % 5 == 0
