@@ -1,6 +1,5 @@
 require "deckofcards/version"
 
-module Deckofcards
   class Card
     attr_accessor :suit, :number
 
@@ -27,4 +26,3 @@ module Deckofcards
   Card.generate_new_deck
   puts Card.generate_new_deck.length
 
-end

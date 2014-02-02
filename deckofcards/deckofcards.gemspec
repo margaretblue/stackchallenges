@@ -4,7 +4,7 @@ require "deckofcards/version"
 
 Gem::Specification.new do |s|
   s.name        = "deckofcards"
-  s.version     = Mygem::VERSION
+  s.version     = Deckofcards::VERSION
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Margaret Morris"]
   s.email       = ["margaretblue@gmail.com"]
@@ -16,8 +16,8 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency "launchy"
   s.add_development_dependency "minitest-capybara"
   s.add_development_dependency "rspec", "~>2.5.0"
-  s.spec.add_development_dependency "bundler", "~> 1.5"
-  s.spec.add_development_dependency "rake"
+  s.add_development_dependency "bundler", "~> 1.5"
+  s.add_development_dependency "rake"
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
