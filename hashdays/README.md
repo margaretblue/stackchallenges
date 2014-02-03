@@ -1,6 +1,17 @@
 # Hashdays
 
-TODO: Write a gem description
+Prompts user for year, month and day and returns the 2-letter abbreviation for the weekday on which that date falls.
+
+ruby lib/hashdays.rb
+
+year? 2014
+
+month? 1
+
+day? 5
+
+# => "Su"
+
 
 ## Installation
 
@@ -18,7 +29,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+ruby lib/hashdays.rb
 
 ## Contributing
 
